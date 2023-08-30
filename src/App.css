@@ -12,7 +12,6 @@ p:first-child {
 }
 
 li {
-	list-style-type: decimal;
 	padding: 0 0 15px 0;
 }
 
