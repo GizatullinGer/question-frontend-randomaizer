@@ -5,6 +5,7 @@ import { WebTech } from '../../data/WebTech'
 import { HTMLQuestions } from '../../data/HTMLQuestions'
 import { CSSQuestions } from '../../data/CSSQuestions'
 import { JSQuestions } from '../../data/JSQuestions'
+import { WebApiQuestions } from '../../data/WebApiQuestions'
 
 export const Home = () => {
 	return (
@@ -15,6 +16,21 @@ export const Home = () => {
 				<h2 className='unitTitle'>Общие вопросы по Web технологиям</h2>
 				<div className='questions'>
 					{WebTech.map((item, index) => (
+						<div key={item.id} className='questionBlock'>
+							<p className='questionNumber'>Вопрос №{index + 1}</p>
+							<h2 className='questionTitle'>{item.question}</h2>
+							<div className='htmlquest__answer questionAnswer'>
+								{item.answer}
+							</div>
+						</div>
+					))}
+				</div>
+			</section>
+
+			<section className='htmlquest'>
+				<h2 className='unitTitle'>Вопросы по Web Api</h2>
+				<div className='questions'>
+					{WebApiQuestions.map((item, index) => (
 						<div key={item.id} className='questionBlock'>
 							<p className='questionNumber'>Вопрос №{index + 1}</p>
 							<h2 className='questionTitle'>{item.question}</h2>
