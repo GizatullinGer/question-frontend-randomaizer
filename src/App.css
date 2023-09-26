@@ -53,6 +53,9 @@ li:first-child {
 }
 
 .questionBlock {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 30px;
+	border-radius: 7px;
 	margin: 0 0 60px 0;
 }
 
@@ -61,4 +64,8 @@ li:first-child {
 	color: #fad000;
 }
 
+.accordion {
+	height: 0;
+	overflow: hidden;
+}
 /* ? Home */
