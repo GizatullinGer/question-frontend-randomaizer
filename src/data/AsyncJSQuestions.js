@@ -8,6 +8,14 @@ import QUESTION_7 from '../components/AsyncJSQuestions/Question_7/Question'
 import QUESTION_8 from '../components/AsyncJSQuestions/Question_8/Question'
 import QUESTION_9 from '../components/AsyncJSQuestions/Question_9/Question'
 import QUESTION_10 from '../components/AsyncJSQuestions/Question_10/Question'
+import QUESTION_11 from '../components/AsyncJSQuestions/Question_11/Question'
+import QUESTION_12 from '../components/AsyncJSQuestions/Question_12/Question'
+import QUESTION_13 from '../components/AsyncJSQuestions/Question_13/Question'
+import QUESTION_14 from '../components/AsyncJSQuestions/Question_14/Question'
+import QUESTION_15 from '../components/AsyncJSQuestions/Question_15/Question'
+import QUESTION_16 from '../components/AsyncJSQuestions/Question_16/Question'
+import QUESTION_17 from '../components/AsyncJSQuestions/Question_17/Question'
+import QUESTION_18 from '../components/AsyncJSQuestions/Question_18/Question'
 
 export const AsyncJSQuestions = [
 	{
@@ -63,42 +71,42 @@ export const AsyncJSQuestions = [
 	{
 		id: 11,
 		question: 'Что такое callback-функция? Что такое Callback Hell?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_11 />,
 	},
 	{
 		id: 12,
 		question: 'Что такое async/await?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_12 />,
 	},
 	{
 		id: 13,
 		question: 'Разница между Promise.all(), Promise.any() и Promise.race()?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_13 />,
 	},
 	{
 		id: 14,
 		question: 'Расскажите про статический метод .allSettled()?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_14 />,
 	},
 	{
 		id: 15,
 		question: 'Плюсы и минусы асинхронного программирования в JavaScript?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_15 />,
 	},
 	{
 		id: 16,
 		question: 'Проблемы при использовании callback-функций?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_16 />,
 	},
 	{
 		id: 17,
 		question: 'Как выполнить несколько асинхронных операций последовательно?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_17 />,
 	},
 	{
 		id: 18,
 		question:
 			'Какие проблемы может вызвать неправильное использование асинхронности в JavaScript?',
-		answer: <QUESTION_10 />,
+		answer: <QUESTION_18 />,
 	},
 ]
