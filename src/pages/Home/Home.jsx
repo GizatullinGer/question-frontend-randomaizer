@@ -7,9 +7,10 @@ import { CSSQuestions } from '../../data/CSSQuestions'
 import { JSQuestions } from '../../data/JSQuestions'
 import { WebApiQuestions } from '../../data/WebApiQuestions'
 import { OOPandFPQuestions } from '../../data/OOPandFPQuestions'
-import { Accordion } from '../../components/Accordion/Accordion'
 import { BlockQuestion } from '../../components/BlockQuestion/BlockQuestion'
 import { AsyncJSQuestions } from '../../data/AsyncJSQuestions'
+import { EcmaScriptQuestions } from '../../data/EcmaScriptQuestions'
+import { AccessibilityQuestions } from '../../data/AccessibilityQuestions'
 
 const questionBlocksData = [
 	{
@@ -46,6 +47,16 @@ const questionBlocksData = [
 		id: 7,
 		title: 'Вопросы из асинхронного JavaScript',
 		data: AsyncJSQuestions,
+	},
+	{
+		id: 8,
+		title: 'Вопросы из стандарта ECMAScript',
+		data: EcmaScriptQuestions,
+	},
+	{
+		id: 7,
+		title: 'Вопросы по доступности (Accessibility',
+		data: AccessibilityQuestions,
 	},
 ]
 
