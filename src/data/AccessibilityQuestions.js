@@ -74,7 +74,7 @@ export const AccessibilityQuestions = [
 	},
 	{
 		id: 12,
-		question: 'Разница между usability и accessibilityQuestions?',
+		question: 'Разница между usability и accessibility?',
 		answer: <QUESTION_12 />,
 	},
 	{
