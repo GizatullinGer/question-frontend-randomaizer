@@ -11,6 +11,7 @@ import { BlockQuestion } from '../../components/BlockQuestion/BlockQuestion'
 import { AsyncJSQuestions } from '../../data/AsyncJSQuestions'
 import { EcmaScriptQuestions } from '../../data/EcmaScriptQuestions'
 import { AccessibilityQuestions } from '../../data/AccessibilityQuestions'
+import { TypescriptQuestions } from '../../data/TypescriptQuestions'
 
 const questionBlocksData = [
 	{
@@ -54,9 +55,14 @@ const questionBlocksData = [
 		data: EcmaScriptQuestions,
 	},
 	{
-		id: 7,
-		title: 'Вопросы по доступности (Accessibility',
+		id: 9,
+		title: 'Вопросы по доступности (Accessibility)',
 		data: AccessibilityQuestions,
+	},
+	{
+		id: 10,
+		title: 'Вопросы по Typescript',
+		data: TypescriptQuestions,
 	},
 ]
 
