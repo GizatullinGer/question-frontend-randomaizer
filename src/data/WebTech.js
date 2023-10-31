@@ -10,6 +10,20 @@ import QUESTION_9 from '../components/WebTech/Question_9/Question'
 import QUESTION_10 from '../components/WebTech/Question_10/Question'
 import QUESTION_11 from '../components/WebTech/Question_11/Question'
 import QUESTION_12 from '../components/WebTech/Question_12/Question'
+import QUESTION_13 from '../components/WebTech/Question_13/Question'
+import QUESTION_14 from '../components/WebTech/Question_14/Question'
+import QUESTION_15 from '../components/WebTech/Question_15/Question'
+import QUESTION_16 from '../components/WebTech/Question_16/Question'
+import QUESTION_17 from '../components/WebTech/Question_17/Question'
+import QUESTION_18 from '../components/WebTech/Question_18/Question'
+import QUESTION_19 from '../components/WebTech/Question_19/Question'
+import QUESTION_20 from '../components/WebTech/Question_20/Question'
+import QUESTION_21 from '../components/WebTech/Question_21/Question'
+import QUESTION_22 from '../components/WebTech/Question_22/Question'
+import QUESTION_23 from '../components/WebTech/Question_23/Question'
+import QUESTION_24 from '../components/WebTech/Question_24/Question'
+import QUESTION_25 from '../components/WebTech/Question_25/Question'
+import QUESTION_26 from '../components/WebTech/Question_26/Question'
 
 export const WebTech = [
 	{
@@ -72,5 +86,75 @@ export const WebTech = [
 		id: 12,
 		question: 'Что такое REST и RESTful api?',
 		answer: <QUESTION_12 />,
+	},
+	{
+		id: 13,
+		question: 'Принципы REST-архитектуры?',
+		answer: <QUESTION_13 />,
+	},
+	{
+		id: 14,
+		question: 'Что такое модель зрелости Ричардсона?',
+		answer: <QUESTION_14 />,
+	},
+	{
+		id: 15,
+		question: 'Основные уровни модели зрелости Ричардсона?',
+		answer: <QUESTION_15 />,
+	},
+	{
+		id: 16,
+		question: 'Назовите критические этапы рендеринга?',
+		answer: <QUESTION_16 />,
+	},
+	{
+		id: 17,
+		question: 'Разница между layout, painting и compositing?',
+		answer: <QUESTION_17 />,
+	},
+	{
+		id: 18,
+		question: 'Что такое Flash Of Unstyled Content (FOUC)? Как его избежать?',
+		answer: <QUESTION_18 />,
+	},
+	{
+		id: 19,
+		question: 'Что такое History API в браузере?',
+		answer: <QUESTION_19 />,
+	},
+	{
+		id: 20,
+		question: 'Что такое веб-хранилище (web storage)?',
+		answer: <QUESTION_20 />,
+	},
+	{
+		id: 21,
+		question: 'Разница между cookie, sessionStorage и localStorage?',
+		answer: <QUESTION_21 />,
+	},
+	{
+		id: 22,
+		question: 'Способы уменьшения времени загрузки веб-страницы?',
+		answer: <QUESTION_22 />,
+	},
+	{
+		id: 23,
+		question: 'Что такое Core Web Vitals? Какие основные метрики туда входят?',
+		answer: <QUESTION_23 />,
+	},
+	{
+		id: 24,
+		question: 'Расскажите о метриках Core Web Vitals?',
+		answer: <QUESTION_24 />,
+	},
+	{
+		id: 25,
+		question: 'Разница между preload, prefetch, preconnect и prerender?',
+		answer: <QUESTION_25 />,
+	},
+	{
+		id: 26,
+		question: 'Для чего нужен паттерн PRPL?',
+		answer: <QUESTION_26 />,
 	},
 ]
