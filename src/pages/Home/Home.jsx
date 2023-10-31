@@ -69,7 +69,7 @@ const questionBlocksData = [
 export const Home = () => {
 	return (
 		<div className='container'>
-			<h1>Справочник вопросов по Frontendы</h1>
+			<h1>Справочник вопросов по Frontend</h1>
 
 			{questionBlocksData.map(block => (
 				<BlockQuestion key={block.id} title={block.title} data={block.data} />
