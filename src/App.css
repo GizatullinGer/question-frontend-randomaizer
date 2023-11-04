@@ -23,6 +23,13 @@ li:first-child {
 	padding: 15px 0;
 }
 
+@media (max-width: 767px) {
+	ol,
+	ul {
+		padding: 0 0 0 15px;
+	}
+}
+
 /* ? Home */
 
 .App {

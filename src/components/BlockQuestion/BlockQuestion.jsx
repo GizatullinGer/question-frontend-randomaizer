@@ -10,8 +10,8 @@ export const BlockQuestion = ({ title, data }) => {
 					{data.map((item, index) => (
 						<div key={item.id} className='questionBlock'>
 							<p className='questionNumber'>Вопрос №{index + 1}</p>
+							<h2 className='questionTitle'>{item.question}</h2>
 							<Accordion>
-								<h2 className='questionTitle'>{item.question}</h2>
 								<div className='htmlquest__answer questionAnswer'>
 									{item.answer}
 								</div>
