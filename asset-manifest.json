@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/question-frontend-randomaizer/static/css/main.d813bdcc.css",
+    "main.js": "/question-frontend-randomaizer/static/js/main.dd05b9d2.js",
+    "index.html": "/question-frontend-randomaizer/index.html",
+    "main.d813bdcc.css.map": "/question-frontend-randomaizer/static/css/main.d813bdcc.css.map",
+    "main.dd05b9d2.js.map": "/question-frontend-randomaizer/static/js/main.dd05b9d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d813bdcc.css",
+    "static/js/main.dd05b9d2.js"
+  ]
+}
