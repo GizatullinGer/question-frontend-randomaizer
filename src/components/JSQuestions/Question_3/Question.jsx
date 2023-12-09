@@ -1,5 +1,4 @@
 import React from 'react'
-import { Examples } from '../../Examples/Examples'
 
 const Question = () => {
 	return (

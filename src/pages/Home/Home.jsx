@@ -5,6 +5,7 @@ import { WebTech } from '../../data/WebTech'
 import { HTMLQuestions } from '../../data/HTMLQuestions'
 import { CSSQuestions } from '../../data/CSSQuestions'
 import { JSQuestions } from '../../data/JSQuestions'
+import { BrowserJSQuestions } from '../../data/BrowserJS'
 import { WebApiQuestions } from '../../data/WebApiQuestions'
 import { OOPandFPQuestions } from '../../data/OOPandFPQuestions'
 import { BlockQuestion } from '../../components/BlockQuestion/BlockQuestion'
@@ -46,21 +47,26 @@ const questionBlocksData = [
 	},
 	{
 		id: 7,
+		title: 'JS в браузере',
+		data: BrowserJSQuestions,
+	},
+	{
+		id: 8,
 		title: 'Вопросы из асинхронного JavaScript',
 		data: AsyncJSQuestions,
 	},
 	{
-		id: 8,
+		id: 9,
 		title: 'Вопросы из стандарта ECMAScript',
 		data: EcmaScriptQuestions,
 	},
 	{
-		id: 9,
+		id: 10,
 		title: 'Вопросы по доступности (Accessibility)',
 		data: AccessibilityQuestions,
 	},
 	{
-		id: 10,
+		id: 11,
 		title: 'Вопросы по Typescript',
 		data: TypescriptQuestions,
 	},
