@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Question_1 = () => {
+const Question = () => {
 	return (
 		<div>
 			<ul>
@@ -12,4 +12,4 @@ const Question_1 = () => {
 	)
 }
 
-export default Question_1
+export default Question

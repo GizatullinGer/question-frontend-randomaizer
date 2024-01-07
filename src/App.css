@@ -7,9 +7,13 @@ p {
 	padding: 0px 0 15px 0;
 }
 
-p:first-child {
+/* p:first-child {
 	padding: 0;
-}
+} */
+
+/* p:last-child {
+	padding: 15px 0;
+} */
 
 li {
 	padding: 0 0 15px 0;

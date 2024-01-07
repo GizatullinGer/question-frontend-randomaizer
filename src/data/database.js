@@ -1,6 +1,3 @@
-import QUESTION_1 from '../components/ReactQuestions/Question_1/Question_1'
-import QUESTION_8 from '../components/ReactQuestions/Question_8/Question_8'
-
 export const allQuestions = {
 	id: 1,
 	name: 'Все вопросы',
@@ -10,7 +7,7 @@ export const allQuestions = {
 			question: 'Что такое React?',
 			answer:
 				'React — это библиотека JavaScript с открытым кодом для создания внешних пользовательских интерфейсов. В отличие от других библиотек JavaScript, предоставляющих полноценную платформу приложений, React ориентируется исключительно на создание представлений приложений через инкапсулированные единицы (называются компонентами), которые сохраняют состояние и генерируют элементы пользовательского интерфейса.',
-			test: <QUESTION_1 />,
+			// test: <QUESTION_1 />,
 		},
 		{
 			id: 2,
@@ -52,7 +49,7 @@ export const allQuestions = {
 		{
 			id: 8,
 			question: 'Стадии и Методы жизненного цикла компонента в React?',
-			answer: <QUESTION_8 />,
+			// answer: <QUESTION_8 />,
 		},
 		{
 			id: 9,

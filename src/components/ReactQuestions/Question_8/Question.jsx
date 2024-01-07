@@ -1,15 +1,13 @@
 import React from 'react'
 import { Examples } from '../../Examples/Examples'
 
-const Question_8 = () => {
+const Question = () => {
 	return (
 		<div>
 			<ul>
 				<li>
-					<p>
-						Фаза инициализации, на которой компонент начинает свой путь.
-						Устанавливается состояние и пропсы.
-					</p>
+					Фаза инициализации, на которой компонент начинает свой путь.
+					Устанавливается состояние и пропсы.
 				</li>
 				<li>
 					<p>
@@ -86,4 +84,4 @@ const Question_8 = () => {
 	)
 }
 
-export default Question_8
+export default Question
