@@ -3,7 +3,6 @@ import React from 'react'
 const Question = () => {
 	return (
 		<div>
-			<p>asdas</p>
 			<p>
 				Теневой (Shadow) DOM и виртуальный (Virtual) DOM - это два концептуально
 				разных подхода к работе с DOM в веб-разработке.
